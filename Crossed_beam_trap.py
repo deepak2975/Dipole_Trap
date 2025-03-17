@@ -9,11 +9,11 @@ from matplotlib import cm
 # Constants
 U0 = -1.826e-36 #Dipole factor multiplies by intensity calculated for rubidium-87 for 1064nm dipole trap(Ref:All-optical 87Rb Bose-Einstein condensate apparatus: Construction and operation Dipl. phys. I. L. H. Humbert) page 31 last paragraph
 p1 = 1  #Power in the first Beam
-p2 = 1  #Power in the second Beam
-W1x_0 = 23.09e-6  #Beam waist of the first beam in x direction
-W1z_0 = 23.09e-6    #Beam waist of the first beam in z direction
-W2x_0 = 76.97e-6    #Beam waist of the second beam in x direction(beam is rotated by 90 so this direction is becomes y)
-W2z_0 = 20e-6    #Beam waist of the first beam in z direction
+p2 = 0  #Power in the second Beam
+W1x_0 = 29.037e-6  #Beam waist of the first beam in x direction
+W1z_0 = 29.037e-6    #Beam waist of the first beam in z direction
+W2x_0 = 30e-6    #Beam waist of the second beam in x direction(beam is rotated by 90 so this direction is becomes y)
+W2z_0 = 30e-6    #Beam waist of the first beam in z direction
 x0 = y0 = z0 = 0
 theta =90*np.pi/180  # radians
 lambda_laser = 1064e-9  # wavelength in meters
